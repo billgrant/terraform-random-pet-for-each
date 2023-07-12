@@ -1,7 +1,7 @@
 variable "pets" {
-    type = list(object({
-        length  = number,
-        prefix = string,
-        sperarator = string,
-    }))
+  type = map(object({
+    length     = number,
+    prefix     = string,
+    separator = string,
+  }))
 }

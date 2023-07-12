@@ -37,3 +37,5 @@ terraform.rc
 
 # ignore lock files
 *.lock.hcl
+
+backend.tf
